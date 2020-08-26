@@ -1,0 +1,111 @@
+*{
+    justify-content: center;
+}
+
+html{
+    height: 100%;
+}
+body{
+    background-image: url(bgr.jpg);
+    background-color: lightblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 10px;
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 50px;
+
+}
+
+nav{
+    width: 800px;
+    height: 50px;
+    border-radius: 20px;
+    background-color:white;
+    margin-top: 50px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin: 5px;
+    
+     
+
+}
+
+nav a{
+    padding-right: 3.5%;
+    padding-left: 3.5%;
+    margin-top: 15px;
+}
+
+
+
+.message{
+    color: white;
+
+}
+
+.img  {
+    float: left;
+    border-radius: 10%;
+    position: sticky;
+}
+
+.img1  {
+    float: left;
+    border-radius: 10%;
+    position: sticky;
+}
+
+
+.message{
+    color:black;
+    background-color: white; 
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid gray;
+    float: left;
+    width: 400px;
+
+}
+.map{
+    padding-top: 10px;
+    display: flex;
+    float: left;
+}
+
+.container3{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: space-around;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+footer{
+    width: 1300px;
+    height: auto;
+    background-color: gray;
+    text-align: center;
+    border-radius: 15px;
+    margin: auto;
+
+}
